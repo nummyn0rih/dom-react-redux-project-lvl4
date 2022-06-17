@@ -3,3 +3,7 @@ start-backend:
 
 start-frontend:
 	make -C ./frontend start
+
+install:
+	make -C ./backend install
+	make -C ./frontend install
